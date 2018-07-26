@@ -50,11 +50,11 @@ The canonical public version identifiers MUST comply with the following scheme:
 
 Public version identifiers are separated into up to five segments:
 
-Epoch segment: N!
-Release segment: N(.N)*
-Pre-release segment: {a|b|rc}N
-Post-release segment: .postN
-Development release segment: .devN
+1. Epoch segment: N!
+2. Release segment: N(.N)*
+3. Pre-release segment: {a|b|rc}N
+4. Post-release segment: .postN
+5. Development release segment: .devN
 
 Software releases should be in named version branches (e.g. origin/v2.0.0) within the repository. Read the Docs will automatically parse these branch names during the document build.
 
@@ -66,7 +66,7 @@ For more information of Semantic Versioning: [https://semver.org/](https://semve
 
 ### Licensing
 
-All Palaeoware code is released under the GNU General Public License. See LICENSE.md files in the repositories for further information.
+The majority of Palaeoware code is released under the GNU General Public License. See LICENSE.md files in the repositories for further information.
 
 All Palaeoware code is Copyright of the respective authors.
 
