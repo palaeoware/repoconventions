@@ -1,4 +1,4 @@
-#Palaeoware coding conventions
+# Palaeoware coding conventions
 *Alan R. T. Spencer*
 *Russell J. Garwood*
 *Mark D. Sutton*
@@ -9,7 +9,7 @@
 
 ______
 
-##Coding Style
+## Coding Style
 
 All Palaeoware software packages should be coded using the conventions below, which are based on the [Qt Coding Style](https://wiki.qt.io/Qt_Coding_Style).
 
