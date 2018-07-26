@@ -1,6 +1,9 @@
 # Palaeoware coding conventions
+
 *Alan R. T. Spencer*
+
 *Russell J. Garwood*
+
 *Mark D. Sutton*
 
 <p align="center">
