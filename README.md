@@ -18,7 +18,27 @@ All Palaeoware software packages should be coded using the conventions below, wh
 
 ### Case and variable names
 
-Variables and functions start with a lower-case letter. Each consecutive word in a variable's name starts with an uppercase letter (camelCase). Variables are declared on a separate line, and avoid short/meaningless names. Single character variable names are only used for counters and locals/temporaries which have an obvious purpose. Classes always start with an upper-case letter. Pointers or references always employ a single space between the type and '*' or '&', but no space between that and the variable name. Non-attached braces are used throughout.
+Variables and functions start with a lower-case letter. Each consecutive word in a variable's name starts with an uppercase letter (camelCase). The only exception to this rule are the constructors and destuctors of classes. 
+
+Variables are declared on a separate line, and avoid short/meaningless names. 
+
+Single character variable names are only used for counters and locals/temporaries which have an obvious purpose. 
+
+Classes always start with an upper-case letter. 
+
+Pointers or references always employ a single space between the type and '*' or '&', but no space between that and the variable name. Non-attached braces are used throughout.
+
+### Includes, defines, and variable declarations
+
+Includes, defines, and variable declarations should be order as follows:
+
+1. Defines. Each on separate line, below the file header comment block. A line break to be used after if there are any includes or variable declarations following.
+2. Includes - .h files includes are first followed by any QT includes. One per line, with a line break between the .h and QT includes. The includes should be ordered alphabetically. A line break to be used after if there are any variable declarations following .
+3. Variable declarations. These should be ordered alphabetically by type, with special characteristics (e.g. static, etc) should be placed before standard variables.
+
+### Code page maximum width
+
+Code eith long functions delcarations should be broken on to multiple lines if it is hard to read on screen. We recommend a standard character width of 200. However, if breaking the code on to multiple lines makes the code less readable this rule should be ignored.
 
 ### Commenting style
 
