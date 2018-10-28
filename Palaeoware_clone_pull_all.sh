@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-echo "Cloning/pulling RevoSim"
+echo "Cloning/pulling Envirogen"
 if [[ ! -d "envirogen" ]]; then
 git clone https://github.com/palaeoware/envirogen.git
 else 
