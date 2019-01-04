@@ -2,16 +2,6 @@
 
 #!/bin/bash
 
-echo "Cloning/pulling Envirogen"
-if [[ ! -d "envirogen" ]]; then
-git clone https://github.com/palaeoware/envirogen.git
-else 
-cd "envirogen"
-git pull
-cd ..
-fi
-
-
 echo "Cloning/pulling REvoSim"
 if [[ ! -d "revosim" ]]; then
 git clone https://github.com/palaeoware/revosim.git
