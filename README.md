@@ -18,7 +18,7 @@ All Palaeoware software packages should be coded using the conventions below, wh
 
 ### Case and variable names
 
-Variables and functions start with a lower-case letter. Each consecutive word in a variable's name starts with an uppercase letter (camelCase). The only exception to this rule are the constructors and destuctors of classes. 
+Variables and functions start with a lower-case letter. Each consecutive word in a variable's name starts with an uppercase letter (camelCase). The only exception to this rule are the constructors and destructors of classes. 
 
 Variables are declared on a separate line, and avoid short/meaningless names. 
 
@@ -38,7 +38,7 @@ Includes, defines, and variable declarations should be order as follows:
 
 ### Code page maximum width
 
-Code eith long functions delcarations should be broken on to multiple lines if it is hard to read on screen. We recommend a standard character width of 200. However, if breaking the code on to multiple lines makes the code less readable this rule should be ignored.
+Code with long functions declarations should be broken on to multiple lines if it is hard to read on screen. We recommend a standard character width of 200. However, if breaking the code on to multiple lines makes the code less readable this rule should be ignored.
 
 ### Commenting style
 
@@ -61,7 +61,7 @@ Where of utility variables can be commented as follows:
 
 All PalaeoWare software should have an associated user manual. It is encouraged to use [Read the Docs](https://readthedocs.org/) for all versioned documentation.
 
-Documentation should be stored under a ./doc directory in the root of the repository.
+Documentation should be stored under a ./docs directory in the root of the repository. Local builds can be placed in a directory ./docs_build.
 
 ### Versioning
 
@@ -96,7 +96,5 @@ All Palaeoware code is Copyright of the respective authors.
 All packages are free software; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
 _____
-
-t:@palaeoware
 
 w:https://github.com/palaeoware
