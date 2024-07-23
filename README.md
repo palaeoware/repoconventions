@@ -91,9 +91,16 @@ For more information of Semantic Versioning: [https://semver.org/](https://semve
 
 The majority of Palaeoware code is released under the GNU General Public License. See LICENSE.md files in the repositories for further information.
 
-All Palaeoware code is Copyright of the respective authors.
-
 All packages are free software; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+
+### Contributor license agreement
+
+Contributors to Palaeoware repositories agree to reassign the copyright of their contributions to the maintainers of the package. Please see the Contributor license agreemen, and [relevant discussions for R packages](https://r-pkgs.org/license.html).
+
+### Code of Conduct
+
+Palaeoware projects are released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project you agree to abide by its terms.
 
 _____
 
