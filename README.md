@@ -96,7 +96,7 @@ All packages are free software; you can redistribute them and/or modify them und
 
 ### Contributor license agreement
 
-Contributors to Palaeoware repositories agree to reassign the copyright of their contributions to the maintainers of the package. Please see the Contributor license agreemen, and [relevant discussions for R packages](https://r-pkgs.org/license.html).
+Contributors to Palaeoware repositories agree to reassign the copyright of their contributions to the maintainers of the package. Please see the Contributor license agreement, and [relevant discussions for R packages](https://r-pkgs.org/license.html).
 
 ### Code of Conduct
 
